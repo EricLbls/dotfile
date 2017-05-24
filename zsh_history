@@ -1988,3 +1988,18 @@
 : 1495645091:0;git push
 : 1495645130:0;git push origin master
 : 1495645196:0;git add .
+: 1495645215:0;git commit -m "Add existing file"
+: 1495645225:0;git push origin master
+: 1495645260:0;cd ..
+: 1495645280:0;history | grep 'ln -s'
+: 1495645359:0;cd .dotfiles/
+: 1495645362:0;vim install.sh
+: 1495645570:0;rm ~/.tmux.conf
+: 1495645574:0;l
+: 1495645595:0;l ../.tmux
+: 1495645605:0;l tmux
+: 1495645616:0;vim install.sh
+: 1495645630:0;ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+: 1495645637:0;l
+: 1495645660:0;vim install.sh
+: 1495645864:0;git add .
