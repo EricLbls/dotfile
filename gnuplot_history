@@ -1,0 +1,38 @@
+q
+plot sinx
+set terminal
+set terminal canvas
+set terminal
+set terminal jpeg
+plot sin(x)
+plot sin(x) > test.jpg
+quit
+help
+help 
+plot sin(x)
+set output 'output.png'
+plot cos(x)
+help timefmt
+date
+time
+set xdata time
+set timefmt '%Y-%m-%d %H:%M:%S'
+plot lsperfdata.mgmt001st001 using 1:2 with linespoints
+set terminal png
+set terminal png 'nocrop enhanced size 1024,768 font "arial,12" '
+set terminal png nocrop enhanced size 1024,768 font "arial,12" 
+set output 'lsperf1.png'
+plot 'lsperfdata.mgmt001st001' using 1:2 with linespoints
+set datafile seperator ','
+set datafile separator ','
+set output 'lsperf2.png'
+plot 'lsperfdata.mgmt001st001' using 1:5 with linespoints
+set output 'lsperf3.png'
+plot 'lsperfdata.mgmt001st001' using 1:6 with linespoints
+set ydata
+help ydata
+help set ydata
+help set xdata
+show ydata
+help set data
+exit
