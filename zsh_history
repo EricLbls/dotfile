@@ -2003,3 +2003,6 @@
 : 1495645637:0;l
 : 1495645660:0;vim install.sh
 : 1495645864:0;git add .
+: 1495645879:0;git commit -m "Add existing file"
+: 1495645892:0;git push origin master
+: 1495646041:0;exit
