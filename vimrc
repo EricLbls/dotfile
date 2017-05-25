@@ -1,4 +1,4 @@
-colorscheme molokai
+" colorscheme molokai
 syntax enable
 set tabstop=4
 set softtabstop=4
