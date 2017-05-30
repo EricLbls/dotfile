@@ -1,4 +1,5 @@
 " colorscheme molokai
+"colorscheme solarized
 syntax enable
 set tabstop=4
 set softtabstop=4
@@ -7,7 +8,7 @@ set expandtab
 set number
 set showcmd
 set cursorline
-filetype indent on
+" filetype indent on
 set wildmenu
 set lazyredraw
 set showmatch
