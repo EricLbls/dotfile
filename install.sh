@@ -30,3 +30,5 @@ ln -s ${BASEDIR}/gnuplot_history ~/.gnuplot_history
 # vim
 ln -s ${BASEDIR}/vim ~/.vim
 ln -s ${BASEDIR}/vimrc ~/.vimrc
+# iterm2
+ln -s ~/.dotfiles/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
