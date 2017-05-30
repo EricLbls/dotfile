@@ -13,7 +13,6 @@
             ~/.bash_profile: bash_profile
             ~/.gitconfig: gitconfig
             ~/.zshrc:  zsh/.zshrc
-            ~/.netrc: .netrc
             ~/.oh-my-zsh: oh-my-zsh 
 
 - shell:
