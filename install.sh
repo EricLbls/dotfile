@@ -19,6 +19,7 @@ if [ -f ~/.bash_profile ]; then
         mv ~/.bash_profile ~/.bash_profile.local
 fi
 ln -s ${BASEDIR}/bash_profile ~/.bash_profile
+ln -s ${BASEDIR}/bashrc ~/.bashrc
 # gnuplot
 ln -s ${BASEDIR}/gnuplot_history ~/.gnuplot_history
 # vim
