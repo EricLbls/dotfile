@@ -26,10 +26,9 @@ alias ls='ls -G'
 alias cd..="cd .."
 alias l="ls -al"
 alias ll="ls -al"
-alias lp="ls -p"
-alias h=history
-alias dt='date "+%F %T"'
-
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
