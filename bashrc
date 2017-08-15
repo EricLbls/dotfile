@@ -22,17 +22,33 @@ nc='\033[0m'
 #------------------------------------------////
 
 # aliases
-alias ls='ls -G'
-alias cd..="cd .."
-alias l="ls -al"
-alias ll="ls -al"
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
+alias go='cd /data5/wjzang'
+alias cd..='cd ..'
+
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+
+alias l='ls -lah'
+alias l.='ls -d .* --color=auto'
+alias la='ls -lAh'
+alias ll='ls -lh'
+alias ls='ls --color=tty'
+alias lsa='ls -lah'
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
     xterm-color) color_prompt=yes;;
 esac
 
+# prompt
+export PS1="\[\e[36m\]\u\[\e[m\]@\h:\[\e[31m\]\W\[\e[m\]\\$ "
 
+# path
+export PATH=$PATH:/data5/wjzang/bin/
+
+# include profile
+
+if [ -f $HOME/.profile ]; then
+    source $HOME/.profile
+fi
