@@ -56,6 +56,7 @@ plugins=(git command-not-found autojump history)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/Users/weijian/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,5 +89,8 @@ source $ZSH/oh-my-zsh.sh
 # add this to your shell profile
 set_iterm_profile() { echo -e "\033]50;SetProfile=$1\a" }
 alias @x3270='set_iterm_profile x3270; ssh -t root@10.60.1.215 screen -D -r x3270; set_iterm_profile default;'
+
+alias ctags="`brew --prefix`/bin/ctags"
+
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
