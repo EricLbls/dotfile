@@ -55,8 +55,9 @@ plugins=(git command-not-found autojump history)
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/lpp/mmfs/bin:/root/bin:/usr/lpp/mmfs/bin:/usr/lpp/mmfs/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="/Users/weijian/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
