@@ -1,1 +1,0 @@
-/Users/weijian/vim4mmfs/syntax/mmfslog.vim

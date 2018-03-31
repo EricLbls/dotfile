@@ -1,3 +1,4 @@
 tmux/resurrect/*
 /.netrc
 /vim/plugged/*
+/vim/syntax/*

@@ -27,3 +27,9 @@ ln -s ${BASEDIR}/vim ~/.vim
 ln -s ${BASEDIR}/vimrc ~/.vimrc
 # iterm2
 ln -s ~/.dotfiles/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+
+# vim syntax(must have github.ibm repos first:vim4mmfs,ess_scripts)
+ln -s ~/vim4mmfs/syntax/mmfslog.vim ${BASEDIR}/vim/syntax/mmfslog.vim
+ln -s ~/ess_scripts/vim/smessages.vim ${BASEDIR}/vim/syntax/smessages.vim
+ln -s ~/ess_scripts/vim/emessages.vim ${BASEDIR}/vim/syntax/emessages.vim
+ 
