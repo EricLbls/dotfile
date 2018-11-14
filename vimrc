@@ -1,14 +1,35 @@
 " colorscheme molokai
 "colorscheme solarized
+
+if has('gui_running') 
+   colorscheme evening
+   "Set the guifont
+   set guifont=Menlo:h22
+   set nu
+endif 
+
+au FocusLost * silent! update
+
+
+set ruler
+
+
 syntax enable
+
+" Automatically indent table to 4 spaces
+" filetype indent on
+filetype plugin indent on
+" show existing tab with 4 spaces width
 set tabstop=4
-set softtabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
 set expandtab
+
 
 set nonumber
 set showcmd
 set cursorline
-" filetype indent on
 set wildmenu
 set lazyredraw
 set showmatch
@@ -16,6 +37,9 @@ set incsearch       " Find the next match as we type the search
 set hlsearch        " Highlight searches by default
 set ignorecase      " Ignore case when searching...
 set smartcase       " ...unless we type a capital
+
+
+
 " move vertically by visual line
 nnoremap j gj
 nnoremap k gk
@@ -51,6 +75,10 @@ Plug 'inkarkat/vim-ingo-library'
 
 " Initialize plugin system
 call plug#end()
+
+" Set working directory(default save dir)
+cd ~/MyTextFiles
+
 
 
 function! LoadCscope()

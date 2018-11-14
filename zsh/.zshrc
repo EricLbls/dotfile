@@ -59,6 +59,7 @@ export PATH="/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/us
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$HOME/bin:$PATH"
 
+export PATH=/usr/local/miniconda3/bin:"$PATH"
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
